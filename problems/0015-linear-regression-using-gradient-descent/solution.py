@@ -1,7 +1,7 @@
 
 
 import numpy as np
-def linear_regression_gradient_descent(X:np.ndarray, y:np.ndarray, alpha = 0.1 , iterations = 1000):
+def linear_regression_gradient_descent(X, y, alpha = 0.1 , iterations = 1000):
     m,n = X.shape  
     y = y.reshape(-1, 1)
     theta = np.zeros((n, 1))
