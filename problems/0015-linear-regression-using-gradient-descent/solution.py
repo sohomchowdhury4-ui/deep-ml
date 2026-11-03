@@ -14,4 +14,4 @@ def linear_regression_gradient_descent(X:np.ndarray, y:np.ndarray, alpha = 0.1 ,
 X = np.array([[1, 1], [1, 2], [1, 3]])
 y = np.array([1, 2, 3])
 result =linear_regression_gradient_descent(X, y)
-print(result)
+print(np.round(result,4))
